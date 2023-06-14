@@ -248,3 +248,24 @@
 
 (global-set-key (kbd "C-q") 'save-and-quit-emacs)
 (global-visual-line-mode 1)
+
+
+;;GIT COMMAND=============
+(defun my-gitpull-function ()
+  "Function to be executed when the hook is triggered."
+  (interactive)
+  (shell-command "git pull")
+  (message "Git Pull..."))
+
+
+(add-hook 'after-init-hook' my-gitpull-function)
+
+
+(defun my-gitpush-function ()
+  "Function to be executed when Emacs is about to exit."
+  (interactive)
+  (shell-command "git add .")
+  (shell-command "git commit -m 'updating'")
+  (shell-command "git push"))
+
+(add-hook 'kill-emacs-hook 'my-gitpush-function)
