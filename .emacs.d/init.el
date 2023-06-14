@@ -84,7 +84,7 @@
 
 ;; =========
 (setq org-format-latex-options
-      '(:foreground "white" :background "#2e2e2e" :scale 0.85 :html-foreground "navy" :html-background "lemonchiffon"))
+      '(:foreground "white" :background "#2e2e2e" :scale 0.95 :html-foreground "navy" :html-background "lemonchiffon"))
 (global-linum-mode t)
 
 
