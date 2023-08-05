@@ -269,3 +269,7 @@
   (shell-command "git push"))
 
 (add-hook 'kill-emacs-hook 'my-gitpush-function)
+
+
+(define-key evil-normal-state-map (kbd "j") 'evil-next-visual-line)
+(define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
