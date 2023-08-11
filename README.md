@@ -1,3 +1,10 @@
+# disable power button turning off immediately in dwm
+```
+/etc/systemd/logind.conf to have the line HandlePowerKey=ignore
+remove the hashtag
+```
+
+
 # Usage
 Clone this directory in home directory and call ./push.sh
 ```
