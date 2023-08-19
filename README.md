@@ -1,3 +1,18 @@
+# Install popular packages
+## pdfoutliner
+```
+pip3 install pdfoutliner==0.0.3
+sudo add-apt-repository ppa:malteworld/ppa
+sudo apt update
+sudo apt install pdftk
+```
+## android file transfer
+May need to do this in ubuntu not dwm
+```
+sudo apt install android-file-transfer
+```
+
+
 # disable power button turning off immediately in dwm
 ```
 /etc/systemd/logind.conf to have the line HandlePowerKey=ignore
