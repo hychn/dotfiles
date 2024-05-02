@@ -1,3 +1,12 @@
 pkg upgr
 apt install openssl-tool
+
 pkg install openssl-1.1
+pkg i openssl-1.1
+git clone https://github.com/hychn/dotfiles/
+
+pkg install x11-repo
+pkg install termux-x11-nightly
+
+
+pkg install dwm
