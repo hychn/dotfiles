@@ -10,3 +10,6 @@ pkg install termux-x11-nightly
 
 
 pkg install dwm
+pkg install emacs-x
+
+git clone https://github.com/syl20bnr/spacemacs $HOME/.emacs.d
