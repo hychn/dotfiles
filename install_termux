@@ -1,0 +1,3 @@
+pkg upgr
+apt install openssl-tool
+pkg install openssl-1.1
