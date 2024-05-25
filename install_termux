@@ -3,7 +3,7 @@ apt install openssl-tool
 
 pkg install openssl-1.1
 pkg i openssl-1.1
-git clone https://github.com/hychn/dotfiles/
+pkg install git
 
 pkg install x11-repo
 pkg install termux-x11-nightly
@@ -13,3 +13,13 @@ pkg install dwm
 pkg install emacs-x
 
 git clone https://github.com/syl20bnr/spacemacs $HOME/.emacs.d
+git clone https://github.com/hychn/dotfiles/
+#cd dotfiles
+#./push.sh
+
+pkg install texlive-installer
+# make sure to connect to internet and not shutdown
+termux-install-tl
+
+# setup git clone access
+git clone https://github.com/hychn/notes
