@@ -19,7 +19,7 @@ git clone https://github.com/hychn/dotfiles/
 
 pkg install texlive-installer
 # make sure to connect to internet and not shutdown
-termux-install-tl
+termux-install-tl --scheme=basic
 
 # setup git ssh before this
 git clone ssh://git@github.com/hychnh/notes
