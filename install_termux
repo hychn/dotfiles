@@ -21,5 +21,13 @@ pkg install texlive-installer
 # make sure to connect to internet and not shutdown
 termux-install-tl --scheme=basic
 
-# setup git ssh before this
-git clone ssh://git@github.com/hychnh/notes
+
+# generate ssh key
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+# copy add key to git account
+cat ~/.ssh/id_ed25519.pub
+git config --global user.email "daemon.ychnh@gmail.com"
+git config --global user.name "hychn"
+git clone ssh://git@github.com/hychn/notes
