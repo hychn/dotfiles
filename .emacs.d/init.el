@@ -85,7 +85,6 @@
 ;; =========
 (setq org-format-latex-options
       '(:foreground "white" :background "#2e2e2e" :scale 1.15 :html-foreground "navy" :html-background "lemonchiffon"))
-(global-linum-mode t)
 
 
 ;(setq org-adapt-indentation nil)
