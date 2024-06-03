@@ -1,5 +1,5 @@
 #!/bin/bash
-cp .vimrc ~/
+#cp .vimrc ~/
 cp .tmux.conf ~/
 cp .pylintrc ~/
 cp .spacemacs ~/
