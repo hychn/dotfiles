@@ -5,4 +5,10 @@ sudo apt install okular
 sudo apt install dvipng
 sudo apt install nmtui
 sudo apt install sagemath
+sudo apt install tmux
+sudo apt install flameshot
+
+
+sudo systemctl stop unattended-upgrades
+sudo apt-get purge unattended-upgrades
 
