@@ -1,4 +1,4 @@
-sudo apt install emacs
+sudo snap install emacs --classic
 sudo apt install texlive
 sudo apt install texlive-latex-extra
 sudo apt install okular
