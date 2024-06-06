@@ -1,0 +1,22 @@
+# Install Ubuntu
+* jammy jellifish 22.04
+* Check the box to install the graphics/wifi drivers
+* Do full install
+
+# Disable Auto Updates
+```
+sudo vi /etc/apt/apt.conf.d/20auto-upgrades
+APT::Periodic::Update-Package-Lists "0";
+APT::Periodic::Download-Upgradeable-Packages "0";
+APT::Periodic::AutocleanInterval "0";
+APT::Periodic::Unattended-Upgrade "0";
+```
+
+```
+sudo systemctl stop unattended-upgrades
+sudo apt-get purge unattended-upgrades
+```
+
+# Github
+# Winetricks
+# Emacs and software
