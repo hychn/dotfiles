@@ -1,5 +1,6 @@
 # emacs 28 or 29. next time build from source
-sudo snap install emacs --classic
+sudo add-apt-repository ppa:ubuntuhandbook1/emac
+sudo apt install emacs emacs-common
 rm -rf $HOME/.emacs.d
 git clone https://github.com/hychn/spacemacs $HOME/.emacs.d
 sudo apt install texlive
