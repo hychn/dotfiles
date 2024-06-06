@@ -1,4 +1,6 @@
 sudo snap install emacs --classic
+rm -rf $HOME/.emacs.d
+git clone https://github.com/hychn/spacemacs $HOME/.emacs.d
 sudo apt install texlive
 sudo apt install texlive-latex-extra
 sudo apt install okular
