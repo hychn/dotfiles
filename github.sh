@@ -9,3 +9,4 @@ cat ~/.ssh/id_ed25519.pub
 git clone ssh://git@github.com/hychnh/notes
 git config --global user.name "hychn"
 git config --global user.email "hychn@gmail.com"
+git clone ssh://git@github.com/hychn/notes
