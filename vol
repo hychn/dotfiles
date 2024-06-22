@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Check if argument is provided
+if [ -z "$1" ]; then
+    echo "Usage: $0 <volume>"
+    exit 1
+fi
+
+# Set the volume using amixer
+amixer -D pulse sset Master "$1%"
+

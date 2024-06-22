@@ -3,6 +3,7 @@ cp .vimrc ~/
 cp .tmux.conf ~/
 cp .pylintrc ~/
 cp .spacemacs ~/
+cp .xinputrc ~/
 mkdir ~/.config
 mkdir ~/.config/nvim
 cp init.vim ~/.config/nvim
