@@ -1,5 +1,5 @@
 # emacs 28 or 29. next time build from source
-sudo add-apt-repository ppa:ubuntuhandbook1/emac
+sudo add-apt-repository ppa:ubuntuhandbook1/emacs
 sudo apt install emacs emacs-common
 rm -rf $HOME/.emacs.d
 git clone https://github.com/hychn/spacemacs $HOME/.emacs.d
