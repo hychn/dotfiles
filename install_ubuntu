@@ -17,6 +17,11 @@ sudo systemctl stop unattended-upgrades
 sudo apt-get purge unattended-upgrades
 ```
 
+# FN Keys
+echo options applespi fnmode=2 | sudo tee -a /etc/modprobe.d/applespi.conf
+# Update initramfs bootfile
+sudo update-initramfs -u -k all
+
 # Github
 # Winetricks
 # Emacs and software
