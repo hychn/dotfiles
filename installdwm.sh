@@ -3,7 +3,8 @@ sudo apt-get install build-essential libx11-dev libxinerama-dev sharutils suckle
 cd /usr/local/src
 #sudo wget http://dl.suckless.org/dwm/dwm-6.2.tar.gz
 #sudo tar xvzf dwm-6.2.tar.gz
-git clone https://github.com/ychnh/dwm6.2-custom dwm-6.2
+#git clone https://github.com/ychnh/dwm6.2-custom dwm-6.2
+git clone https://github.com/hychn/dwm6.2_warp_systray
 chown -R `id -u`:`id -g` dwm-6.2
 cd dwm-6.2
 
